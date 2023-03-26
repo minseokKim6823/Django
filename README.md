@@ -11,3 +11,4 @@ localhost:포트번호
 cmd 켜서 cd 파일위치
 python manage.py createsuperuser
 localhost:포트번호/admin
+
