@@ -1,0 +1,46 @@
+[북마크 기능의 APP]
+
+- 템플릿 구성: templates/ 하위에 템플릿들을 저장한다.
+    -- 북마크의 리스트 화면을 나타내는 템플릿 --------------> bookmark_list.html
+    -- 리스트의 세부 정보를 볼 수 있는 화면 템플릿 ---------> bookmark_detail.html
+
+- 테이블 구성 : models.py 에 코딩을 한다
+    -- 테이블은 Bookmark 하나로 구성한다.
+    -- Bookmark Field 구성
+        -- id       : primary key(기본키),autoincrement 북마크의 고유번호
+        -- title    : CharField(200)    Not null,       북마크 제목
+        -- url      : URLField          Unique          북마크 url
+
+- 전체 로직
+
+    --URL ----------------> View ---------------------> Template
+
+      /bookmark/             BookmarkListView.as_view()        bookmark_list.html
+
+      /bookmark/10           BookmarkDetailView.as_view()      bookmark_detail.html
+    
+- 코딩 순서
+
+    1. 프로젝트 만들기 : 
+        -- startproject 프로젝트 생성하기
+        -- settings.py 프로젝트 항목 설정
+        -- migrate 데이터베이스 마이그레이션
+        -- createsuperuser 관리자 유저 만들기
+        -- startapp 북마크 앱 생성
+        -- settings.py 북마크 앱 등록
+    
+    2. 모델 정의 : 
+        -- models.py        테이블 정의
+        -- admin.py         admin사이트에 모델 등록
+        -- makemigrations   모델을 생성
+        -- migrate          모델을 데이터베이스에 반영
+
+    3. URLconf 정의
+        --urls.py           URL 정의
+
+    4. 뷰코딩하기
+        --vies.py           뷰로직 작성
+    
+    5. 템플릿 코딩하기
+        -- templates 폴더   템플릿 파일 작성
+
