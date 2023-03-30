@@ -22,12 +22,12 @@
 - 코딩 순서
 
     1. 프로젝트 만들기 : 
-        -- startproject 프로젝트 생성하기
-        -- settings.py 프로젝트 항목 설정
-        -- migrate 데이터베이스 마이그레이션
-        -- createsuperuser 관리자 유저 만들기
-        -- startapp 북마크 앱 생성
-        -- settings.py 북마크 앱 등록
+        -- startproject         프로젝트 생성하기
+        -- settings.py          프로젝트 항목 설정
+        -- migrate              데이터베이스 마이그레이션
+        -- createsuperuser      관리자 유저 만들기
+        -- startapp             북마크 앱 생성
+        -- settings.py          북마크 앱 등록
     
     2. 모델 정의 : 
         -- models.py        테이블 정의
