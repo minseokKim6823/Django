@@ -19,7 +19,7 @@
       /bookmark/             BookmarkListView.as_view()        bookmark_list.html
 
       /bookmark/10           BookmarkDetailView.as_view()      bookmark_detail.html
-    
+     
 - 코딩 순서
 
     1. 프로젝트 만들기 : 
