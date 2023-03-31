@@ -11,6 +11,7 @@
         -- title    : CharField(200)    Not null,       북마크 제목
         -- url      : URLField          Unique          북마크 url
 
+
 - 전체 로직
 
     --URL ----------------> View ---------------------> Template
