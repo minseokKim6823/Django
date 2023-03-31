@@ -7,7 +7,7 @@
 - 테이블 구성 : models.py 에 코딩을 한다
     -- 테이블은 Bookmark 하나로 구성한다.
     -- Bookmark Field 구성
-        -- id       : primary key(기본키),autoincrement 북마크의 고유번호
+        -- id       : primary key(기본키),autoincrement 북마크의 고유번호 
         -- title    : CharField(200)    Not null,       북마크 제목
         -- url      : URLField          Unique          북마크 url
 
