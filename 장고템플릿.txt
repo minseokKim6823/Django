@@ -121,6 +121,7 @@
        - django.template.context_processors.messages : 메세지 리스트를 가리키는 messages 변수와 메세지 레벨을 가리키는 
        DEFAULT_MESSAGE_LEVELS변수가 최종 컨텍스트 데이터에 추가
 
+
        ** RequestContext 객체가 생성될 때는, 위 4개의 컨텍스트 프로세서 이외에도 CSRF(Cross Site Request Forgery) 
        보안 공격을 방지하기 위한 프로 세서가 자동으로 추가된다.
 
