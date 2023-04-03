@@ -8,7 +8,7 @@ class BookmarkListView(ListView):
     model = Bookmark
 
 # 장고에서는 자동적으로 지정해주는 속석 2가지가 있다.
-# 컨텍스트 변수 : object_list로 지정
+# 컨텍스트 변수 : object_list로 지정 
 # 템플릿 파일 : 모델명 소문자_list.html 지정 ----------->bookmark_list.html
 
 class BookmarkDetailView(DetailView):
