@@ -4,11 +4,14 @@
         <title>북마크 세부 정보</title>
     </head>
     <body>
-        <h2>
-            리스트 1
-        </h2>
-        <ul>
-            <li>URL : <a href="#">리스트1의 URL</a></li>
-        </ul>
+        <div style ="margin:auto; width:400px; border:1px solid #aaa; padding:20px;
+            margin-top: 40px;">
+            <h2>
+                {{ object.title }}
+            </h2>
+            <ul style="list-style: none">
+                <li>URL : <a href="{{ object.url }}">{{object.url}}</a></li>
+            </ul>
+        </div>
     </body>
 </html>

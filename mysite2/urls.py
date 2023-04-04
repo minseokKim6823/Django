@@ -23,5 +23,5 @@ urlpatterns = [
     path('bookmark/',BookmarkListView.as_view(), name='index'),
     path('bookmark/<int:pk>',BookmarkDetailView.as_view(), name='detail'),
     #path('bookmark/',TemplateView.as_view(template_name='bookmark/bookmark_detail.html')),
-
+    
 ]
