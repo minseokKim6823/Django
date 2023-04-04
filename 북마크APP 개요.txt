@@ -7,9 +7,9 @@
 - 테이블 구성 : models.py 에 코딩을 한다
     -- 테이블은 Bookmark 하나로 구성한다.
     -- Bookmark Field 구성
-        -- id       : primary key(기본키),autoincrement 북마크의 고유번호  
-        -- title    : CharField(200)    Not null,       북마크 제목
-        -- url      : URLField          Unique          북마크 url
+        -- id       : primary key(기본키),autoincrement     북마크의 고유번호  
+        -- title    : CharField(200)    Not null,           북마크 제목
+        -- url      : URLField          Unique              북마크 url
 
 
 - 전체 로직
@@ -40,7 +40,7 @@
         --urls.py           URL 정의
 
     4. 뷰코딩하기
-        --vies.py           뷰로직 작성
+        --vies.py           뷰로직 작성  ## 자바는 mvc(view가 C(control) 역할을 함)
     
     5. 템플릿 코딩하기
         -- templates 폴더   템플릿 파일 작성
