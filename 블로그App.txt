@@ -1,0 +1,21 @@
+[ 블로그 앱 ]
+
+-  데이터 베이스 테이블 설정(Post모델 클래스) ***ORM 사용 기법
+    -- id                   int             Primary Key, Auto Increment     포스트항목별 고유번호
+    -- title                CharField(100)                                  포스트 제목
+    -- slug                 SlugFiled(50)   Unique                          포스트 제목 별칭
+    -- description          CharField(100)  Blank                           포스트 요약
+    -- content              TextField                                       포스트 내용
+    -- create_date          DateTimeField   auto_now_ add                   포스트 생성 날짜
+    -- modify_date          DateTimeField   auto_now                        포스트 수정 날짜
+
+- URL 패턴 설정
+    -- blog/                 PostListView            post_all.html
+    -- blog/post/            PostListView            post_all.html
+    -- blog/post/slugEx/     PostDetailview          post_detail.html
+    -- blog/archive/         PostArchiveView         post_archive.html
+    -- blog/2018/            PostYearArchiveView     post_archive_year.html
+    -- blog/2018/july/       PostMonthArchiveView    post_archive_month.html
+    -- blog/2018/july/11/    PostDayArchiveView      post_archive_day.html
+    -- blog/today/           PostTodayArchiveView    post_archive_day.html
+    -- blog/admin/
