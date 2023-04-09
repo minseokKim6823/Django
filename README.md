@@ -12,3 +12,6 @@ cmd 켜서 cd 파일위치
 python manage.py createsuperuser
 localhost:포트번호/admin 
 admin 아이디 비번은 비밀.
+
+MTV 패턴 MVC 패턴 
+장고는 MTV패턴
