@@ -15,3 +15,6 @@ admin 아이디 비번은 비밀.
 
 MTV 패턴 MVC 패턴 
 장고는 MTV패턴
+M:model
+T:
+V:
