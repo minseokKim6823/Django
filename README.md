@@ -17,4 +17,4 @@ MTV 패턴 MVC 패턴
 장고는 MTV패턴
 M: Model
 T: Template
-V:
+V: View
