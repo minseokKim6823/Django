@@ -18,5 +18,7 @@ MTV 패턴 MVC 패턴
 M: Model
 T: Template
 V: View
+
+
 스프링은 MVC패턴
-M:
+M: Model
