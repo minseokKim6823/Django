@@ -1,5 +1,4 @@
-Django_practice
-
+Django
 
 서버사용
 cmd 켜서 cd 파일위치
