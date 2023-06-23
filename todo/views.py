@@ -47,4 +47,4 @@ def todo_edit(request, pk):
             return redirect('todo_list')
     else:
         form = TodoForm(instance=todo)
-    return render(request, 'todo/todo_post.html', {'form': form})
+    return render(request, 'todo/todo_edit.html', {'form': form})
